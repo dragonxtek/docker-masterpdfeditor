@@ -1,0 +1,1 @@
+sudo docker run -it --privileged --env DISPLAY=unix$DISPLAY --network=host -v $XAUTH:/root/.Xauthority -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/tmp masterpdf:lastest
