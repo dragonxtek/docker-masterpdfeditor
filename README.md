@@ -9,7 +9,8 @@ Create the container with the following sentence:
 
 
 Save the container as masterpdf:lastest
-Give read permissions to masterpdf file and copy it in /usr/bin
+
+Give execution permissions to masterpdf file and copy it into /usr/bin
 
     chmod +x masterpdfeditor
     sudo cp masterpdfeditor /usr/bin
